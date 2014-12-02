@@ -3,7 +3,6 @@ class ProxiesController < ApplicationController
 		require 'rubygems'
 		require 'RMagick'
 		require "open-uri"
-    if params.present?
 		@url = params[:url]
 		@width = params[:width]
 		@height = params[:height]
