@@ -3370,3 +3370,32 @@ Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:30:13 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:30:13 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:35:31 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2222ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:35:33 +0500
