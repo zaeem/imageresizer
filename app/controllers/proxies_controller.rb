@@ -21,9 +21,10 @@ class ProxiesController < ApplicationController
 			@filepath = "#{Rails.root}/public/resized/"+@image_name
 			resized.write(@filepath)
 		end
-		set_file_path
+    
+    render text: set_file_path
   end
-  
+
   def search_files
   	filepath = nil
 		files = Dir.glob("#{Rails.root}/public/resized/*")
