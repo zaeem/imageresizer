@@ -2696,3 +2696,367 @@ Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 12:37:41 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 12:37:41 +0500
+
+
+Started GET "/?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 12:51:37 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 12:51:38 +0500
+
+
+Started GET "/public/resized/200*200-www.ogosense.com_images_stories_2011images_disqualify-sales-leads.jpg" for 127.0.0.1 at 2014-12-02 12:52:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/public/resized/200*200-www.ogosense.com_images_stories_2011images_disqualify-sales-leads.jpg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.6) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.6) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:8:in `require'
+  bin/rails:8:in `<top (required)>'
+  spring (1.2.0) lib/spring/client/rails.rb:27:in `load'
+  spring (1.2.0) lib/spring/client/rails.rb:27:in `call'
+  spring (1.2.0) lib/spring/client/command.rb:7:in `call'
+  spring (1.2.0) lib/spring/client.rb:26:in `run'
+  spring (1.2.0) bin/spring:48:in `<top (required)>'
+  spring (1.2.0) lib/spring/binstub.rb:11:in `load'
+  spring (1.2.0) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:16:in `require'
+  bin/spring:16:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<main>'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateImages (20141202083551)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateImages (20141202083551)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (5081.8ms)[0m  [1mDROP DATABASE IF EXISTS "resizer_development"[0m
+PG::ObjectInUse: ERROR:  database "resizer_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "resizer_development"
+  [1m[35m (278.1ms)[0m  DROP DATABASE IF EXISTS "resizer_test"
+  [1m[36m (0.5ms)[0m  [1mCREATE DATABASE "resizer_development" ENCODING = 'utf8'[0m
+PG::DuplicateDatabase: ERROR:  database "resizer_development" already exists
+: CREATE DATABASE "resizer_development" ENCODING = 'utf8'
+  [1m[35m (804.8ms)[0m  CREATE DATABASE "resizer_test" ENCODING = 'utf8'
+  [1m[36mSQL (23.9ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (46.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (54.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateImages (20141202083551)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateImages (20141202083551)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (94.5ms)[0m  [1mCREATE TABLE "images" ("id" serial primary key, "image_name" text, "image" bytea, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141202083551"]]
+  [1m[36m (25.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mImages Load (0.5ms)[0m  [1mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "images"
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:00:16 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProxiesController#index as HTML
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `index' for nil:NilClass):
+  app/controllers/proxies_controller.rb:10:in `index'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:02:18 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected ':', expecting keyword_end
+       notice: "params are empty" 
+              ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:02:44 +0500
+Processing by ProxiesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `index' for nil:NilClass):
+  app/controllers/proxies_controller.rb:10:in `index'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:03:00 +0500
+Processing by ProxiesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `root' for #<ProxiesController:0x000000069e1168>):
+  app/controllers/proxies_controller.rb:29:in `index'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:03:09 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      redirect_to :root notice: "params are empty" 
+                              ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:03:34 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      redirect_to "index" notice: "params are empty" 
+                                ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:03:46 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      redirect_to "proxies#index" notice: "params are empty" 
+                                        ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:03:51 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      redirect_to "proxies/index" notice: "params are empty" 
+                                        ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 14:04:00 +0500
+
+SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render "proxies/index" notice: "params are empty" 
+                                   ^):
+  app/controllers/proxies_controller.rb:29: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:04:29 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2144ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:04:31 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:07:23 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1806ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:07:24 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:08:03 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
