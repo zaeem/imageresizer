@@ -13,7 +13,7 @@ class ProxiesController < ApplicationController
   		end
   		@image_name = "#{@width}*#{@height}-" + @image_name.gsub!('/','_').split('?')[0]
   		@filepath = search_files
-  		if @filepath.nil?
+  		# if @filepath.nil?
         logger.info("---------------------------------file path nil-------------------------------------------------------")
   			image = Magick::ImageList.new  
   			urlimage = open(@url)
@@ -21,7 +21,7 @@ class ProxiesController < ApplicationController
   			resized = image.resize_to_fit(@width, @height)
   			@filepath = "#{Rails.root}/public/resized/"+@image_name
   			resized.write(@filepath)
-  		end
+  		# end
 
   		set_file_path
     # save_image
