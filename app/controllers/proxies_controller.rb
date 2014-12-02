@@ -19,8 +19,7 @@ class ProxiesController < ApplicationController
   			urlimage = open(@url)
   			img = image.from_blob(urlimage.read)
   			resized = image.resize_to_fit(@width, @height)
-  			@filepath = "#{Rails.root}/public/resized/"+@image_name
-        
+  			@filepath = "#{Rails.root}/app/resized/"+@image_name
   			resized.write(@filepath)
   		end
 
@@ -30,7 +29,7 @@ class ProxiesController < ApplicationController
   end
   def search_files
   	filepath = nil
-		files = Dir.glob("#{Rails.root}/public/resized/*")
+		files = Dir.glob("#{Rails.root}/app/resized/*")
 
   	files.each do |f|
 
@@ -45,7 +44,7 @@ class ProxiesController < ApplicationController
   	filepath
   end
   def set_file_path
-  	@file_path = url_for.split('proxies')[0] + @filepath.split('public/')[1]
+  	@file_path = url_for.split('proxies')[0] + @filepath.split('app/')[1]
   end
   # def save_image
   #   File file = new File(@url);

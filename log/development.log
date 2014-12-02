@@ -3108,3 +3108,150 @@ Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:35 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:37 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:25:38 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:27:20 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+Completed 500 Internal Server Error in 1435ms
+
+Magick::ImageMagickError (unable to open image `/home/devsinc/projects/imageresizer/resized/200*200-www.ogosense.com_images_stories_2011images_disqualify-sales-leads.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/proxies_controller.rb:24:in `write'
+  app/controllers/proxies_controller.rb:24:in `index'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:28:10 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+Completed 500 Internal Server Error in 1899ms
+
+Magick::ImageMagickError (unable to open image `/home/devsinc/projects/imageresizer/resized/200*200-www.ogosense.com_images_stories_2011images_disqualify-sales-leads.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/proxies_controller.rb:23:in `write'
+  app/controllers/proxies_controller.rb:23:in `index'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:28:41 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1966ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:28:43 +0500
