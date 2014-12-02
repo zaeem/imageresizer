@@ -3060,3 +3060,51 @@ Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:09:03 +0500
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:15:31 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (/home/devsinc/projects/imageresizer/public/resized/200*200-www.ogosense.com_images_stories_2011images_disqualify-sales-leads.jpg isn't in paths: /home/devsinc/projects/imageresizer/app/assets/images, /home/devsinc/projects/imageresizer/app/assets/javascripts, /home/devsinc/projects/imageresizer/app/assets/stylesheets, /home/devsinc/projects/imageresizer/vendor/assets/javascripts, /home/devsinc/projects/imageresizer/vendor/assets/stylesheets, /home/devsinc/.rvm/gems/ruby-2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts, /home/devsinc/.rvm/gems/ruby-2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts, /home/devsinc/.rvm/gems/ruby-2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts):
+    1: <strong>Filepath</strong>
+    2: <pre><%= @file_path %></pre>
+    3: <pre><%= @filepath %></pre>
+    4: <%= image_tag(@filepath) %>
+    5: <br>
+  app/views/proxies/index.html.erb:4:in `_app_views_proxies_index_html_erb___2454811618521841414_58631940'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (22.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/proxies?url=http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.ogosense.com/images/stories/2011images/disqualify-sales-leads.jpg", "width"=>"200", "height"=>"200"}
+  Rendered proxies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 14:15:59 +0500
