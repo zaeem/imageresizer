@@ -3585,3 +3585,40 @@ SyntaxError (/home/devsinc/projects/imageresizer/app/controllers/proxies_control
   Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
   Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /home/devsinc/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/proxies?url=http://static3.businessinsider.com/image/52cddfb169beddee2a6c2246/the-29-coolest-us-air-force-images-of-the-year.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 15:40:36 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://static3.businessinsider.com/image/52cddfb169beddee2a6c2246/the-29-coolest-us-air-force-images-of-the-year.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2660ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 15:40:39 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateImages (20141202083551)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.4ms)[0m  DROP TABLE "images"
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20141202083551'[0m
+  [1m[35m (22.1ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
