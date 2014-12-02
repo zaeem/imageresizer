@@ -3544,3 +3544,32 @@ Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 15:16:43 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 15:16:43 +0500
+
+
+Started GET "/proxies?url=http://www.hdwallpapersimages.com/wp-content/uploads/2014/01/Winter-Tiger-Wild-Cat-Images.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-02 15:35:53 +0500
+Processing by ProxiesController#index as HTML
+  Parameters: {"url"=>"http://www.hdwallpapersimages.com/wp-content/uploads/2014/01/Winter-Tiger-Wild-Cat-Images.jpg", "width"=>"200", "height"=>"200"}
+---------------------------------file path nil-------------------------------------------------------
+  Rendered proxies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3176ms (Views: 373.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 15:35:56 +0500
