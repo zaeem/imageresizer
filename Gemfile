@@ -27,3 +27,6 @@ gem 'spring',        group: :development
 gem 'rmagick', '2.13.2', :require => 'RMagick'
 gem 'rails_12factor', group: :production
 
+gem 'less-rails'
+gem 'therubyracer'
+gem 'twitter-bootstrap-rails'

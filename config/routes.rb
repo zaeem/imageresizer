@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
-  get 'proxies/index'
-  resources :proxies
     # root :to => "proxies#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'proxies#index'
+  get 'pics/index'
+  get 'pics/iphone'
+  get 'pics/tablet'
+  get 'pics/get_uri'
 
+
+  root 'proxies#index'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
