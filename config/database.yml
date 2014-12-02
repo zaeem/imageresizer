@@ -2,26 +2,24 @@ development:
   adapter: postgresql
   encoding: utf8
   database: resizer_development
-  username: postgres
+  username: postgres3
   password: postgres
-  host: localhost
   pool: 5
 
 test: &TEST
   adapter: postgresql
   encoding: utf8
   database: resizer_test
-  username: postgres
+  username: postgres3
   password: postgres
-  host: localhost
   pool: 5
 
 production:
   adapter: postgresql
   encoding: utf8
   database: resizer_development
-  username: postgres
-  password: postgres
+  # username: postgres
+  # password: postgres
   host: localhost
   pool: 5
 
