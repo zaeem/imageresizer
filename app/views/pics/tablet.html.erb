@@ -8,49 +8,61 @@
 	}
 </style>
 <script>
-	function switchImg(img){
-		$("#image").attr('src',img); 
+	function switchImg(img, width, height){
+		$.ajax({
+			type: "GET",
+			url: "/",
+			data: { 
+				url: img, 
+				width: width,
+				height: height
+			},
+			success: function (img_path) {
+				$("#image").attr('src',img_path); 
+			}
+		});
 	}
 </script>
+
 <div class="demo">
 	<h1> Tablet Page </h1>
 	<ul class="sidebar col-md-4 col-sm-4 col-xs-3">
 		<li>
 			<img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/376bce1949fb8d8076fc65713931c1346afd3900.jpg?1407783670" 
-			onclick="switchImg('<%= get_uri('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670', 600, 600)%>')">
+			onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670', 600, 600)">
 		</li>
 		<li>
 			<img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/858454d7d598a36edd2a05c9ea8c676f96031856.jpg?1412881708" 
-			onclick="switchImg('<%= get_uri('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708', 600, 600)%>')">
+			onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708', 600, 600)">
 		</li>
 		<li>
 			<img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/8cb9166c0161b6e65ae93a89bf77d08feffc58c3.jpg?1407783728" 
-			onclick="switchImg('<%= get_uri('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728', 600, 600)%>')">
+			onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728', 600, 600)">
 		</li>
 		<li>
 			<img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/0daf165428c285a9b1db792a071e9b4b132ec7e5.jpg?1416885778" 
-			onclick="switchImg('<%= get_uri('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/fc86a78835140e8e770a9c58d5e6e82f99b88014.jpg?1416885778', 600, 600)%>')">
+			onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/fc86a78835140e8e770a9c58d5e6e82f99b88014.jpg?1416885778', 600, 600)">
 		</li>
 		<li>
 			<img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/d780b8c8b86dc4dfe3f1f394a954404e8ba00a21.jpg?1416885786" 
-			onclick="switchImg('<%= get_uri('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg?1416885786', 600,600)%>')">
+			onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg?1416885786', 600,600)">
 		</li>
 		<li>
 			Image from CDN <br/>
 			<img class="img-responsive" style="max-width:80px;" src="http://content.screencast.com/users/zaeemasif/folders/Jing/media/755f6555-08cc-4f2f-baf8-49b0e7b949eb/00001227.png" 
-			onclick="switchImg('<%= get_uri('https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735600', 600, 600)%>')">
+			onclick="switchImg('https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735600', 600, 600)">
 		</li>
 
 		<li>
 			Large size image <br/>
 			<img class="img-responsive" style="max-width:80px;" src="http://content.screencast.com/users/zaeemasif/folders/Jing/media/69c8a4d7-d564-4265-9b2f-bc68b7b7f041/00001226.png" 
-			onclick="switchImg('<%= get_uri('http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg', 600, 600)%>')">
+			onclick="switchImg('http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg', 600, 600)">
 		</li>
 
 		<li>
 			Large S3 <br/>
 			<img class="img-responsive" style="max-width:80px;" src="http://content.screencast.com/users/zaeemasif/folders/Jing/media/99378e74-9ef7-4956-82e4-acef35a26029/00001228.png" 
-			onclick="switchImg('<%= get_uri('https://eduleaf-staging.s3.amazonaws.com/uploads/cropped_image/file/13226/1045.jpg?1415699731', 600, 600)%>')">
+			onclick="switchImg('https://eduleaf-staging.s3.amazonaws.com/uploads/cropped_image/file/13226/1045.jpg?1415699731', 600, 600)">
 		</li>
 
 	</ul>

@@ -9205,3 +9205,1149 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 08:07:04 
 
 
 Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 08:07:04 +0500
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 08:18:33 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (245437.1ms)
+Completed 200 OK in 245767ms (Views: 245754.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 08:22:39 +0500
+Processing by PicsController#iphone as HTML
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 297ms (Views: 286.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 08:25:50 +0500
+
+
+Started GET "/pics/index" for 127.0.0.1 at 2014-12-03 08:25:54 +0500
+Processing by PicsController#index as HTML
+  Rendered pics/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 08:25:55 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 146ms (Views: 144.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphoneodd" for 127.0.0.1 at 2014-12-03 08:25:56 +0500
+Processing by PicsController#iphoneodd as HTML
+  Rendered pics/iphoneodd.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/tablet" for 127.0.0.1 at 2014-12-03 08:25:58 +0500
+Processing by PicsController#tablet as HTML
+  Rendered pics/tablet.html.erb within layouts/application (246610.7ms)
+Completed 200 OK in 246747ms (Views: 246746.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 08:30:05 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (227517.3ms)
+Completed 200 OK in 227846ms (Views: 227845.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 11:28:53 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (248617.0ms)
+Completed 200 OK in 248908ms (Views: 248895.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:33:02 +0500
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 11:45:55 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 250ms (Views: 243.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:45:56 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:00 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2418ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:06 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2325ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Fe786da6183335053540cf55698f49274e7945495.jpg%3F1407783728&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:12 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2551ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:17 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:18 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:52 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:55 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:56 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Fe786da6183335053540cf55698f49274e7945495.jpg%3F1407783728&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:57 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:58 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:46:59 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:47:02 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:47:02 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:47:02 +0500
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 11:51:49 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 218ms (Views: 213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:51:50 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Fe786da6183335053540cf55698f49274e7945495.jpg%3F1407783728&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:51:56 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 253ms (Views: 252.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:52:59 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg%3F1416885786&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:53:02 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg?1416885786", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2097ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:53:07 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2739ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=http%3A%2F%2Fwallalay.com%2Fwp-content%2Fuploads%2F2014%2F08%2FHigh-Resolution-Images-109.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:53:13 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 78595ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:32 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Feduleaf-staging.s3.amazonaws.com%2Fuploads%2Fcropped_image%2Ffile%2F13226%2F1045.jpg%3F1415699731&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:32 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://eduleaf-staging.s3.amazonaws.com/uploads/cropped_image/file/13226/1045.jpg?1415699731", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2609ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 139ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:54:35 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:43 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:44 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Ffc86a78835140e8e770a9c58d5e6e82f99b88014.jpg%3F1416885778&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:46 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/fc86a78835140e8e770a9c58d5e6e82f99b88014.jpg?1416885778", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1561ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:50 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=http%3A%2F%2Fwallalay.com%2Fwp-content%2Fuploads%2F2014%2F08%2FHigh-Resolution-Images-109.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:54 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:57 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:58 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:54:59 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Fe786da6183335053540cf55698f49274e7945495.jpg%3F1407783728&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:55:01 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:55:02 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=http%3A%2F%2Fwallalay.com%2Fwp-content%2Fuploads%2F2014%2F08%2FHigh-Resolution-Images-109.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:55:04 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735400&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:55:11 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735400", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 11:55:14 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphoneodd" for 127.0.0.1 at 2014-12-03 11:57:40 +0500
+Processing by PicsController#iphoneodd as HTML
+  Rendered pics/iphoneodd.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 182ms (Views: 181.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/tablet" for 127.0.0.1 at 2014-12-03 11:57:58 +0500
+Processing by PicsController#tablet as HTML
+  Rendered pics/tablet.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 130ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=600&height=600" for 127.0.0.1 at 2014-12-03 11:58:00 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"600", "height"=>"600"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1854ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Ffc86a78835140e8e770a9c58d5e6e82f99b88014.jpg%3F1416885778&width=600&height=600" for 127.0.0.1 at 2014-12-03 11:58:07 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/fc86a78835140e8e770a9c58d5e6e82f99b88014.jpg?1416885778", "width"=>"600", "height"=>"600"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1975ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/tablet" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+Processing by PicsController#tablet as HTML
+  Rendered pics/tablet.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 147ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:44 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 11:58:45 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg%3F1416885786&width=600&height=600" for 127.0.0.1 at 2014-12-03 11:58:48 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/6b83813fdcdb0fcdce2fe8a639f91a4041a68721.jpg?1416885786", "width"=>"600", "height"=>"600"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1574ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Ffc86a78835140e8e770a9c58d5e6e82f99b88014.jpg%3F1416885778&width=600&height=600" for 127.0.0.1 at 2014-12-03 11:58:51 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/fc86a78835140e8e770a9c58d5e6e82f99b88014.jpg?1416885778", "width"=>"600", "height"=>"600"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/index" for 127.0.0.1 at 2014-12-03 12:42:23 +0500
+Processing by PicsController#index as HTML
+  Rendered pics/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 308ms (Views: 304.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 12:42:24 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 146ms (Views: 145.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:26 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:27 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 154ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:30 +0500
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:36 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Faf5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg%3F1412881708&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:37 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/proxies.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/proxies.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 12:42:43 +0500
+
+
+Started GET "/pics/iphone" for 127.0.0.1 at 2014-12-03 12:42:46 +0500
+Processing by PicsController#iphone as HTML
+  Rendered pics/iphone.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2F7d697aea79b88034289a5ea5b8671a5134946848.jpg%3F1407783670&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:49 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fassets.qa.keep-collective.com%2Fcatalog_service%2Fsystem%2Fimages%2Fstyle%2Fthumb_large%2Fe786da6183335053540cf55698f49274e7945495.jpg%3F1407783728&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:42:51 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/e786da6183335053540cf55698f49274e7945495.jpg?1407783728", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=http%3A%2F%2Fwallalay.com%2Fwp-content%2Fuploads%2F2014%2F08%2FHigh-Resolution-Images-109.jpg&width=200&height=200" for 127.0.0.1 at 2014-12-03 12:43:01 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg", "width"=>"200", "height"=>"200"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/iphoneodd" for 127.0.0.1 at 2014-12-03 12:43:04 +0500
+Processing by PicsController#iphoneodd as HTML
+  Rendered pics/iphoneodd.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 144ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pics/tablet" for 127.0.0.1 at 2014-12-03 12:44:39 +0500
+Processing by PicsController#tablet as HTML
+  Rendered pics/tablet.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 276ms (Views: 271.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?url=https%3A%2F%2Fd114xxgzhq47ua.cloudfront.net%2Fuploads%2Fcropped_image%2Ffile%2F37210%2F7405.jpg%3F1393735600&width=600&height=600" for 127.0.0.1 at 2014-12-03 12:44:42 +0500
+Processing by ProxiesController#index as */*
+  Parameters: {"url"=>"https://d114xxgzhq47ua.cloudfront.net/uploads/cropped_image/file/37210/7405.jpg?1393735600", "width"=>"600", "height"=>"600"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2676ms (Views: 1.0ms | ActiveRecord: 0.0ms)
