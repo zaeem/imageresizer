@@ -26,7 +26,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rmagick', '2.13.2', :require => 'RMagick'
 gem 'rails_12factor', group: :production
-gem 'bootstrap-sass'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
