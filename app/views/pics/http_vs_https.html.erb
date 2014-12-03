@@ -1,0 +1,79 @@
+<style type="text/css">
+  .sidebar{
+    list-style: none;
+    float: left;
+  }
+  .sidebar img{
+    cursor: pointer;
+  }
+</style>
+<script>
+function switch2heroku(img, width, height){
+    $.ajax({
+      type: "GET",
+      url: "/",
+      data: { 
+        url: img, 
+        width: width,
+        height: height
+      },
+      success: function (img_path) {
+        $("#image").attr('src',img_path); 
+      }
+    });
+  }
+  function switchImg(img){
+    $("#image").attr('src',img); 
+  }
+</script>
+<div class="demo">
+  <h2>https </h2>
+  Large size image <br/>
+
+  Stella&dot images<br>
+  <ul class="sidebar col-md-4 col-sm-4 col-xs-3">
+    <li><img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/376bce1949fb8d8076fc65713931c1346afd3900.jpg?1407783670" 
+     onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670')">
+   </li>
+
+   <li><img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/858454d7d598a36edd2a05c9ea8c676f96031856.jpg?1412881708" 
+    onclick="switchImg('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708')">
+  </li>
+  <br>Heroku<br>
+  <li>
+      <img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/376bce1949fb8d8076fc65713931c1346afd3900.jpg?1407783670" 
+      onclick="switch2heroku('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670', 200, 200)">
+    </li>
+    <br>
+    <li>
+      <img class="img-responsive" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_small/858454d7d598a36edd2a05c9ea8c676f96031856.jpg?1412881708" 
+      onclick="switch2heroku('https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/af5c5b8cedc45fcf5a705341cda5444ff019fb12.jpg?1412881708', 200, 200)">
+    </li>
+  <h2>http </h2>
+  Stella&dot<br>
+  <li>
+    <img class="img-responsive" src="http://content.screencast.com/users/zaeemasif/folders/Default/media/705a4e9a-0568-438c-b748-702867b33a52/blog.jimdo.com_wp-content_uploads_2014_01_tree-247122.jpg"onclick="switchImg('http://blog.jimdo.com/wp-content/uploads/2014/01/tree-247122.jpg')">
+  </li>
+  <br>
+  <li>
+      <img class="img-responsive" style="max-width:80px;" src="http://content.screencast.com/users/zaeemasif/folders/Jing/media/69c8a4d7-d564-4265-9b2f-bc68b7b7f041/00001226.png" 
+      onclick="switch2heroku('http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg')">
+    </li>
+  </li>
+   <br>Heroku<br>
+  <li>
+       <img class="img-responsive" src="http://content.screencast.com/users/zaeemasif/folders/Default/media/705a4e9a-0568-438c-b748-702867b33a52/blog.jimdo.com_wp-content_uploads_2014_01_tree-247122.jpg"onclick="switch2heroku('http://blog.jimdo.com/wp-content/uploads/2014/01/tree-247122.jpg', 200, 200)">
+    </li>
+    <br>
+    <li>
+      <img class="img-responsive" style="max-width:80px;" src="http://content.screencast.com/users/zaeemasif/folders/Jing/media/69c8a4d7-d564-4265-9b2f-bc68b7b7f041/00001226.png" 
+      onclick="switch2heroku('http://wallalay.com/wp-content/uploads/2014/08/High-Resolution-Images-109.jpg', 200, 200)">
+    </li>
+
+</ul>
+
+<div class="col-md-4 col-sm-4 col-xs-8">
+ <img id = "image" class="img-responsive pull-right" src="https://assets.qa.keep-collective.com/catalog_service/system/images/style/thumb_large/7d697aea79b88034289a5ea5b8671a5134946848.jpg?1407783670" >
+</div>
+
+</div>

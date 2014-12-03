@@ -10,6 +10,9 @@ class PicsController < ApplicationController
   def tablet
   	
   end
+  def http_vs_https
+    
+  end
 
   def get_uri
     require 'net/http'

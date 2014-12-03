@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   get 'pics/index'
+  get 'pics/http_vs_https'
   get 'pics/iphone'
   get 'pics/iphoneodd'
   get 'pics/tablet'
