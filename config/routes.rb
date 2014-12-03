@@ -7,12 +7,13 @@ Rails.application.routes.draw do
   get 'pics/index'
   get 'pics/http_vs_https'
   get 'pics/iphone'
-  get 'pics/iphoneodd'
+  get 'pics/iphonenorm'
   get 'pics/tablet'
   get 'pics/get_uri'
 
 
   root 'proxies#index'
+  get 'proxies/image'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
